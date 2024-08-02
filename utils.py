@@ -1,4 +1,4 @@
-from lib.dataset.dataset import ColorDataset, MNPZDataset, NPZDataset, PickleDataset, LanguageDataset, SynchronizedDatasets
+from .dataset import ColorDataset, MNPZDataset, NPZDataset, PickleDataset, LanguageDataset, SynchronizedDatasets
 
 
 def load_dataset_nerf(n_perspectives, path):
